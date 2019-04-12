@@ -1,3 +1,8 @@
-puts "Hello World"
+class Editor
+	@@height_of_editor = 34
+	@@width_of_editor = 23
+	@@font = 'bold'
+end
 
-a = 24 + 24
+editor_instance = Editor.new
+
